@@ -1,3 +1,3 @@
-# Headline
+# Quick reference
 
-> An awesome project.
+> Coming soon...
