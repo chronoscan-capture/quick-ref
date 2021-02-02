@@ -11,12 +11,10 @@
     * _Type_: String
     * _Description_: Encrypt hash
     * _Default_: Auto-generated md5 hash
-* #### **userlinkcfg_MYCFGNAME**
 * #### **wci_batches_panel_allow_operators_delete_batches**
     * _Type_: Boolean
     * _Description_: [Allow|Do not allow] [operator|indexer|editor] users to delete batches on the 'Batches' tab section of the application
     * _Default_: false
-* #### **wci_cloud_directory**
 * #### **wci_dashboard_allow_filtering_by_imap_fields**
     * _Type_: Boolean
     * _Description_: [Allow|Do not allow] Filtering the dashboard batches lists by [IMAP Senders|IMAP Recipients] 
@@ -69,12 +67,34 @@
     * _Default_: 15
     * _Image_: _*In this example the variable has been set to 2_ <br /><img src="./../../_images_/wci_lists_max_page_values.png" width="420" height="auto"> 
 * #### **wci_mainurl**
+    * _Type_: String
+    * _Description_: Url for enterprise web application
+    * _Default_: http://localhost:10000
 * #### **wci_max_log_days**
+    * _Type_: int
+    * _Description_: If greater than 0, the table containing logs will only keep records that are greater than today minus *value* days
+    * _Example_: If you just want to keep log records for the last 7 days, set this value to 7
+    * _Default_: -1 (Disabled)
 * #### **wci_max_smtp_notifications_days**
+    * _Type_: int
+    * _Description_: If greater than 0, the table containing smtp notifications will only keep records that are greater than today minus *value* days
+    * _Example_: If you just want to keep smtp notification records for the last 7 days, set this value to 7
+    * _Default_: -1 (Disabled)
 * #### **wci_max_system_notifications_days**
+    * _Type_: int
+    * _Description_: If greater than 0, the table containing system notifications will only keep records that are greater than today minus *value* days
+    * _Example_: If you just want to keep system notification records for the last 7, set this value to 7
+    * _Default_: -1 (Disabled)
 * #### **wci_scan_plugin_directory**
+    * _Type_: String
+    * _Description_: <a href="https://www.chronoscan.org/wcidoc/running_chronoscan_web_server_through_a_reverse_proxy__helicon_ape__print.htm" target="_blank">See docs</a>
+    * _Default_: &lt;&lt;default&gt;&gt;
 * #### **wci_scan_plugin_host**
+    * _Type_: String
+    * _Description_: <a href="https://www.chronoscan.org/wcidoc/running_chronoscan_web_server_through_a_reverse_proxy__helicon_ape__print.htm" target="_blank">See docs</a>
+    * _Default_: &lt;&lt;default&gt;&gt;
 * #### **wci_spacedisk_warning_megabytes**
+
 * #### **wci_system_alert_IMAP_cnxfail**
 * #### **wci_system_alert_IMAP_cnxfail_Recipients**
 * #### **wci_system_alerts_email**
