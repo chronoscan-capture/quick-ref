@@ -21,7 +21,7 @@
     * _Type_: Boolean
     * _Description_: [Allow|Do not allow] Filtering the dashboard batches lists by [IMAP Senders|IMAP Recipients] 
     * _Default_: false
-    * _Image_ <br /><img src="/_images_/imap_filters.png" width="420" height="auto">
+    * _Image_ <br /><img src="./../../_images_/imap_filters.png" width="420" height="auto">
 * #### **wci_dashboard_autorefresh_seconds**
     * _Type_: Number
     * _Description_: It determines the time (**in seconds**) that the dashboard information takes to auto-refresh
@@ -34,7 +34,7 @@
     * _Type_: Number
     * _Description_: It determines the number of records per page to show in the dashboard inboxes lists
     * _Default_: 100
-    * _Image_: _*In this example the variable has been set to 5_ <br /><img src="/_images_/max_items_dashboard.png" width="420" height="auto"> <!-- ![IMAP filters](./../../_images_/imap_filters.png =250x) -->
+    * _Image_: _*In this example the variable has been set to 5_ <br /><img src="./../../_images_/max_items_dashboard.png" width="420" height="auto"> 
 * #### **wci_diagnosis_input_server_url**
     * _Type_: String
     * _Description_: Url for opening the diagnosis and information web application for the _Input server_
@@ -51,14 +51,23 @@
     * _Type_: Number
     * _Description_: If the index view remains without user activity for longer than this time (**in seconds**), current batch will be saved and current session will be closed.
     * _Default_: 360
-
-* #### **wci_input_max_threads**
-    >! Deprecated
-
 * #### **wci_input_root**
+    * _Type_: String
+    * _Description_: Root directory for hotfolder configurations
+    * _Default_: C:\WCI_INPUT_ROOT
 * #### **wci_instance_title**
+    * _Type_: String
+    * _Description_: Name to show on Enterprise title
+    * _Default_: Your configuration name
 * #### **wci_license_number**
+    * _Type_: String
+    * _Description_: License number information
+    * _Default_: 
 * #### **wci_lists_max_page_values**
+    * _Type_: Number
+    * _Description_: Number of items to appear on fields with lists on [Search|Characters introduction]
+    * _Default_: 15
+    * _Image_: _*In this example the variable has been set to 2_ <br /><img src="./../../_images_/wci_lists_max_page_values.png" width="420" height="auto"> 
 * #### **wci_mainurl**
 * #### **wci_max_log_days**
 * #### **wci_max_smtp_notifications_days**

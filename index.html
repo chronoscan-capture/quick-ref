@@ -1,34 +1,51 @@
+
+
+<!-- index.html -->
+
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
+  <!-- Global site tag (gtag.js) - Google Analytics 
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-FPWE9GB36D"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-FPWE9GB36D');
+  </script>
+  -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta charset="UTF-8">
-  <title>Quick Reference guide</title>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <meta name="description" content="Description">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/vue.css">
+  <!--https://dev.materialdesignicons.com/getting-started/webfont-->
   <link rel="stylesheet" href="https://cdn.materialdesignicons.com/5.7.55/css/materialdesignicons.min.css">
+  <!--<link href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet"/>-->
   <link rel="shortcut icon" href="./favicon.ico"> 
+  <title>Quick reference guide</title>
 </head>
 <body>
-  <div id="app">Please wait...</div>
+  <div data-app id="main">Please wait...</div>
   <script>
     // Chronoscan Capture
-    // jr>reymad@feb2021
+    // jr>reymad@nov2020
     window.$docsify = {
-      // el: "#main",
+      el: "#main",
+      // repo: 'https://github.com/chronoscan-capture/ChronoLite-docs.git',
       repo: 'https://github.com/chronoscan-capture/quick-ref.git',
       name: '<span><img src="./_images_/chronoscan_logo_40.png" style="margin-bottom: -10px" /></span> <span>ChronoScan</span><br /> <small style="font-size: 13px;">Quick reference guide</small>',
       // logo: './images/clock_forward_40.png',
       themeColor: '#4d90fe',// Chronoscan blue,
       loadSidebar: true,
       alias: {
-         '/.*/_sidebar.md': '/_sidebar.md'
-      },      
+        '/.*/_sidebar.md': '/_sidebar.md'
+      },
+      // search: 'auto', // default
       // complete configuration parameters
       search: {
-        maxAge: 0, // Expiration time, the default one day
-        paths: 'auto', // or 'auto' or []
+        maxAge: 0, //  86400000, // Expiration time, the default one day
+        paths: 'auto',
         placeholder: 'Type to search',
         noData: 'No Results!',
         // Headline depth, 1 - 6
@@ -43,30 +60,27 @@
       },
     }
   </script>
-
-  <!-- Docsify v4 -->
-  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
-  <!-- plugins -->
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
   <!-- plugins -->
-  <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
-  <!--<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>-->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
   <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
   <!--expandible menu-->
   <script src="//unpkg.com/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
-  <!--https://www.npmjs.com/package/docsify-material-icons-->
-  <!--<script src="//unpkg.com/docsify-material-icons/dist/docsify-material-icons.min.js"></script>-->
   <!--zoom image-->
   <script src="//unpkg.com/docsify/lib/plugins/zoom-image.min.js"></script>
   
   <style>
-    /* Arrow sidebar style */
+    img[src*="#bordered"] {
+        border: 1px solid #f1f1f1;
+    }
+    /* arrow sidebar style */
     .sidebar-nav li {
       position: relative;
       margin: 0;
       cursor: pointer;
       text-transform: uppercase;
     }
+
     .sidebar-nav ul:not(.app-sub-sidebar) > li:not(.file)::before {
       content: '';
       display: block;
@@ -80,18 +94,21 @@
       transform: rotate(-45deg);
       transition: transform 0.1s;
     }
+
     .sidebar-nav ul:not(.app-sub-sidebar) > li.open::before {
       transform: rotate(45deg);
     }
+
     .sidebar-nav ul:not(.app-sub-sidebar) > li.collapse::before {
       transform: rotate(-45deg);
     }
-    .content {
-      overflow: auto;
-    }
+    /**/
   </style>
-
+  <script>
+    console.log("-------------------------------")
+    console.log(new Date().getFullYear()  + ' - reymad@ChronoScanCapture')
+    console.log("-------------------------------")
+  </script>
 </body>
 </html>
-
 
