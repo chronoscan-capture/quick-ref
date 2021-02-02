@@ -8,7 +8,7 @@
     * [X] Logfile ON
     > **Note:** Having the log file enabled may affect the application performance
 * #### **md5salt**
-    * _Type_: String
+    * _Type_: String | Readonly
     * _Description_: Encrypt hash
     * _Default_: Auto-generated md5 hash
 * #### **wci_batches_panel_allow_operators_delete_batches**
@@ -55,7 +55,7 @@
     * _Default_: C:\WCI_INPUT_ROOT
 * #### **wci_instance_title**
     * _Type_: String
-    * _Description_: Name to show on Enterprise title
+    * _Description_: Name for enterprise instance title
     * _Default_: Your configuration name
 * #### **wci_license_number**
     * _Type_: String
@@ -71,17 +71,17 @@
     * _Description_: Url for enterprise web application
     * _Default_: http://localhost:10000
 * #### **wci_max_log_days**
-    * _Type_: int
+    * _Type_: Number
     * _Description_: If greater than 0, the table containing logs will only keep records that are greater than today minus *value* days
     * _Example_: If you just want to keep log records for the last 7 days, set this value to 7
     * _Default_: -1 (Disabled)
 * #### **wci_max_smtp_notifications_days**
-    * _Type_: int
+    * _Type_: Number
     * _Description_: If greater than 0, the table containing smtp notifications will only keep records that are greater than today minus *value* days
     * _Example_: If you just want to keep smtp notification records for the last 7 days, set this value to 7
     * _Default_: -1 (Disabled)
 * #### **wci_max_system_notifications_days**
-    * _Type_: int
+    * _Type_: Number
     * _Description_: If greater than 0, the table containing system notifications will only keep records that are greater than today minus *value* days
     * _Example_: If you just want to keep system notification records for the last 7, set this value to 7
     * _Default_: -1 (Disabled)
@@ -94,15 +94,42 @@
     * _Description_: <a href="https://www.chronoscan.org/wcidoc/running_chronoscan_web_server_through_a_reverse_proxy__helicon_ape__print.htm" target="_blank">See docs</a>
     * _Default_: &lt;&lt;default&gt;&gt;
 * #### **wci_spacedisk_warning_megabytes**
-
+    * _Type_: Number
+    * _Description_: Minimum amount in Megabytes for alert/notification of disk space being low
+    * _Default_: 1000
+    * _Image_: <br /><img src="./_images_/wci_spacedisk_warning_megabytes.png" width="420" height="auto"> 
 * #### **wci_system_alert_IMAP_cnxfail**
+    * _Type_: Boolean
+    * _Description_: It [Activates|Deactivates] a system alert to notify when an IMAP connection fails.
+    * _Default_: false
 * #### **wci_system_alert_IMAP_cnxfail_Recipients**
+    * _Type_: String
+    * _Description_: Add recipients for this alert by system variables or valid email addresses. (Separated by semicolon (;) to add more than one)
+    * _Default_: %station_admin_mail%
 * #### **wci_system_alerts_email**
+    * _Type_: Boolean
+    * _Description_: It [Activates|Deactivates] global system alert email to %station_admin_email% that are notified on 'App toolbar / alerts'
+    * _Default_: false
 * #### **wci_system_database_version**
+    * _Type_: String | Readonly
+    * _Description_: It shows current database version for enterprise installation
 * #### **wci_ui_header_ref**
+    * _Type_: String 
+    * _Description_: Url link to navigate when clicking on _wci_ui_header_title_ (Dashboard app toolbar application name)
+    * _Deafult_: https://www.chronoscan.org
 * #### **wci_ui_header_title**
+    * _Type_: String
+    * _Description_: Name to show on Enterprise app bar
+    * _Default_: YOUR_CONFIGURATION_NAME
 * #### **wci_ui_login_welcome_logo**
+    * _Type_: String
+    * _Description_: Html img element for the enterprise application logo to appear
+    * _Default_: &lt;img src='wci/customerlogo.png'/&gt;
+    * _Image_: <br /><img src="./_images_/logo_wci.png" width="420" height="auto"> 
 * #### **wci_ui_main_title**
+    * _Type_: String
+    * _Description_: Explorer's tab title for enterprise web client
+    * _Default_: YOUR_CONFIGURATION_NAME.Chronoscan Enterprise
 
 > ## Global parameters
 
