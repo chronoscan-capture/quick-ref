@@ -19,7 +19,7 @@
     * _Type_: Boolean
     * _Description_: [Allow|Do not allow] Filtering the dashboard batches lists by [IMAP Senders|IMAP Recipients] 
     * _Default_: false
-    * _Image_ <br /><img src="./../../../../_images_/imap_filters.png" width="420" height="auto">
+    * _Image_ <br /><img src="/quick-ref/_images_/imap_filters.png" width="420" height="auto"> <script>document.write('manolo')</script>
 * #### **wci_dashboard_autorefresh_seconds**
     * _Type_: Number
     * _Description_: It determines the time (**in seconds**) that the dashboard information takes to auto-refresh
