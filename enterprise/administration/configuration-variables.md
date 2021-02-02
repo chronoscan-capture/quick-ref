@@ -1,4 +1,4 @@
-# Configuration variables
+# Enterprise / Administration / Configuration variables
 
 > ## System parameters (wci_params)
 
@@ -51,8 +51,10 @@
     * _Type_: Number
     * _Description_: If the index view remains without user activity for longer than this time (**in seconds**), current batch will be saved and current session will be closed.
     * _Default_: 360
-    
+
 * #### **wci_input_max_threads**
+    >! Deprecated
+
 * #### **wci_input_root**
 * #### **wci_instance_title**
 * #### **wci_license_number**
