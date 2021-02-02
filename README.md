@@ -1,3 +1,4 @@
-# Quick reference
+# Quick Reference Guide
 
-> Coming soon...
+* [Desktop](/desktop/index)
+<!--* [Enterprise](/enterprise/index) -->
