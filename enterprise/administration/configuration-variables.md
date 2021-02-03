@@ -1,6 +1,8 @@
 # Enterprise / Administration / Configuration variables
 
+
 > ## System parameters (wci_params)
+----
 
 * #### **Logfile**
     * _Log files are located under folder C:\chronoscanlog\_  
@@ -125,74 +127,267 @@
     * _Type_: String
     * _Description_: Html img element for the enterprise application logo to appear
     * _Default_: &lt;img src='wci/customerlogo.png'/&gt;
-    * _Image_: <br /><img src="./_images_/logo_wci.png" width="420" height="auto"> 
+    * _Image_: <br /><img src="./_images_/logo_wci.png" width="220" height="auto"> 
 * #### **wci_ui_main_title**
     * _Type_: String
     * _Description_: Explorer's tab title for enterprise web client
-    * _Default_: YOUR_CONFIGURATION_NAME.Chronoscan Enterprise
+    * _Default_: YOUR_CONFIGURATION_NAME - Chronoscan Enterprise
 
 > ## Global parameters
+----
 
 * #### **Amounts_correction**
+    * _Type_: Boolean
+    * _Description_: It [Activates|Deactivates] amounts correction for intelli-tags
+    * _Default_: true
+
+### **Notifications default parameters <i class="mdi mdi-arrow-down" style="color: #4d90fe;"></i>**
+> These are global default configuration variables for every job notifications.  
+Every one of them can be customized per job under 'Job / JOB_NAME / Notifications' section of the application.
+
+!> It's important to know that if you want to add email addresses that are not system variables,  
+the email has to belong to an user registered for the job the notification is active for
+
 * #### **OnBatchCreated_Recipients**
+    * _Type_: String
+    * _Description_: List of valid emails addresses or system variables to recieve this notification, separated by a semicolon
+    * _Default_: %station_admin_mail%
+    * _Notification description_: It sends a notification when new batches are created 
 * #### **OnBatchCreated_RecipientsActive**
+    * _Type_: Number [0|1]
+    * _Description_: It [Activates|Deactivates] the notification
+    * _Default_: 0 (Deactivated)
 * #### **OnBatchDeleted_Recipients**
+    * _Type_: String
+    * _Description_: List of valid emails addresses or system variables to recieve this notification, separated by a semicolon
+    * _Default_: %station_admin_mail%
+    * _Notification description_: It sends a notification when batches are deleted 
 * #### **OnBatchDeleted_RecipientsActive**
+    * _Type_: Number [0|1]
+    * _Description_: It [Activates|Deactivates] the notification
+    * _Default_: 0 (Deactivated)
 * #### **OnBatchExportedWithErrors_Recipients**
+    * _Type_: String
+    * _Description_: List of valid emails addresses or system variables to recieve this notification, separated by a semicolon
+    * _Default_: %station_admin_mail%
+    * _Notification description_: It sends a notification when batches are exporting and have validation errors
 * #### **OnBatchExportedWithErrors_RecipientsActive**
+    * _Type_: Number [0|1]
+    * _Description_: It [Activates|Deactivates] the notification
+    * _Default_: 0 (Deactivated)
 * #### **OnBatchExported_Recipients**
+    * _Type_: String
+    * _Description_: List of valid emails addresses or system variables to recieve this notification, separated by a semicolon
+    * _Default_: %station_admin_mail%
+    * _Notification description_: It sends a notification when batches are exported correctly, without errors
 * #### **OnBatchExported_RecipientsActive**
+    * _Type_: Number [0|1]
+    * _Description_: It [Activates|Deactivates] the notification
+    * _Default_: 0 (Deactivated)
 * #### **OnBatchOpen_Recipients**
+    * _Type_: String
+    * _Description_: List of valid emails addresses or system variables to recieve this notification, separated by a semicolon
+    * _Default_: %station_admin_mail%
+    * _Notification description_: It sends a notification when batches are open on the enterprise application
 * #### **OnBatchOpen_RecipientsActive**
+    * _Type_: Number [0|1]
+    * _Description_: It [Activates|Deactivates] the notification
+    * _Default_: 0 (Deactivated)
 * #### **OnBatchProcessed_Recipients**
+    * _Type_: String
+    * _Description_: List of valid emails addresses or system variables to recieve this notification, separated by a semicolon
+    * _Default_: %station_admin_mail%
+    * _Notification description_: It sends a notification when batches are processed by the _Processing server_
 * #### **OnBatchProcessed_RecipientsActive**
+    * _Type_: Number [0|1]
+    * _Description_: It [Activates|Deactivates] the notification
+    * _Default_: 0 (Deactivated)
 * #### **OnBatch_New_documents_to_approve**
+    * _Type_: String
+    * _Description_: List of valid emails addresses or system variables to recieve this notification, separated by a semicolon
+    * _Default_: %job_approvers%
+    * _Notification description_: It sends a notification when new batches change to the status <i>to_approve</i>
 * #### **OnBatch_New_documents_to_approveActive**
+    * _Type_: Number [0|1]
+    * _Description_: It [Activates|Deactivates] the notification
+    * _Default_: 0 (Deactivated)
 * #### **OnBatch_New_documents_to_configure**
+    * _Type_: String
+    * _Description_: List of valid emails addresses or system variables to recieve this notification, separated by a semicolon
+    * _Default_: %job_editors%
+    * _Notification description_: It sends a notification when new batches enter the inbox status '_Batches waiting for configuration_'
 * #### **OnBatch_New_documents_to_configureActive**
+    * _Type_: Number [0|1]
+    * _Description_: It [Activates|Deactivates] the notification
+    * _Default_: 0 (Deactivated)
 * #### **OnBatch_New_documents_to_index**
+    * _Type_: String
+    * _Description_: List of valid emails addresses or system variables to recieve this notification, separated by a semicolon
+    * _Default_: %job_operators%
+    * _Notification description_: It sends a notification when new batches enter the inbox status '_Batches waiting for manual index_'
 * #### **OnBatch_New_documents_to_indexActive**
+    * _Type_: Number [0|1]
+    * _Description_: It [Activates|Deactivates] the notification
+    * _Default_: 0 (Deactivated)
 * #### **OnBatch_New_documents_to_postclass**
+    * _Type_: String
+    * _Description_: List of valid emails addresses or system variables to recieve this notification, separated by a semicolon
+    * _Default_: %job_operators%
+    * _Notification description_: It sends a notification when batches enter the status <i>poss_class</i>
 * #### **OnBatch_New_documents_to_postclassActive**
+    * _Type_: Number [0|1]
+    * _Description_: It [Activates|Deactivates] the notification
+    * _Default_: 0 (Deactivated)
 * #### **OnBatch_New_documents_to_preclass**
+    * _Type_: String
+    * _Description_: List of valid emails addresses or system variables to recieve this notification, separated by a semicolon
+    * _Default_: %job_operators%
+    * _Notification description_: It sends a notification when batches enter the status <i>pre_class</i>
 * #### **OnBatch_New_documents_to_preclassActive**
+    * _Type_: Number [0|1]
+    * _Description_: It [Activates|Deactivates] the notification
+    * _Default_: 0 (Deactivated)
 * #### **OnBatch_ProcessingTime_LongerThan**
+    * _Type_: String
+    * _Description_: List of valid emails addresses or system variables to recieve this notification, separated by a semicolon
+    * _Default_: %station_admin_mail%
+    * _Notification description_: It sends a notification when batches take longer than specified on _OnBatch_ProcessingTime_LongerThanConditionalMinutes_ being processed
 * #### **OnBatch_ProcessingTime_LongerThanActive**
+    * _Type_: Number [0|1]
+    * _Description_: It [Activates|Deactivates] the notification
+    * _Default_: 0 (Deactivated)
 * #### **OnBatch_ProcessingTime_LongerThanConditionalMinutes**
+    * _Type_: Number
+    * _Description_: It conditions the notification for batches to take longer than this value when they process (Value is in minutes. It can be a decimal value, for instance to set it to 20 seconds = 0.33)
+    * _Default_: 5
 * #### **OnBatch_Status_[created]_WaitingFor**
+    * _Type_: String
+    * _Description_: List of valid emails addresses or system variables to recieve this notification, separated by a semicolon
+    * _Default_: %station_admin_mail%
+    * _Notification description_: It sends a notification when batches take longer than specified on inbox '_Batch(es) waiting to process_'
+    * _Info_: The amount of time a batch has to be waiting to process in order to send the notification is configurable under 'Job / JOB_NAME / Notifications > event OnBatch_Status_[created]_WaitingFor > *minutes' column
 * #### **OnBatch_Status_[created]_WaitingForActive**
+    * _Type_: Number [0|1]
+    * _Description_: It [Activates|Deactivates] the notification
+    * _Default_: 0 (Deactivated)
 * #### **OnBatch_Status_[pre_class]_WaitingFor**
+    * _Type_: String
+    * _Description_: List of valid emails addresses or system variables to recieve this notification, separated by a semicolon
+    * _Default_: %station_admin_mail%
+    * _Notification description_: It sends a notification when batches take longer than specified on inbox '_Batch(es) waiting classification_'
+    * _Info_: The amount of time a batch has to be waiting classification in order to send the notification is configurable under 'Job / JOB_NAME / Notifications > event OnBatch_Status_[pre_class]_WaitingFor > *minutes' column
 * #### **OnBatch_Status_[pre_class]_WaitingForActive**
+    * _Type_: Number [0|1]
+    * _Description_: It [Activates|Deactivates] the notification
+    * _Default_: 0 (Deactivated)
 * #### **OnBatch_Status_[ready_to_export]_WaitingFor**
+    * _Type_: String
+    * _Description_: List of valid emails addresses or system variables to recieve this notification, separated by a semicolon
+    * _Default_: %station_admin_mail%
+    * _Notification description_: It sends a notification when batches take longer than specified on inbox '_Batch(es) exports (Ready to export)_'
+    * _Info_: The amount of time a batch has to be waiting on _ready to export_ in order to send the notification is configurable under 'Job / JOB_NAME / Notifications > event OnBatch_Status_[ready_to_export]_WaitingFor > *minutes' column
 * #### **OnBatch_Status_[ready_to_export]_WaitingForActive**
+    * _Type_: Number [0|1]
+    * _Description_: It [Activates|Deactivates] the notification
+    * _Default_: 0 (Deactivated)
 * #### **OnCommented_DocumentType_Recipients**
+    * _Type_: String
+    * _Description_: List of valid emails addresses or system variables to recieve this notification, separated by a semicolon
+    * _Default_: %station_admin_mail%
+    * _Notification description_: It sends a notification when a document type has been commented
 * #### **OnCommented_DocumentType_RecipientsActive**
+    * _Type_: Number [0|1]
+    * _Description_: It [Activates|Deactivates] the notification
+    * _Default_: 0 (Deactivated)
 * #### **OnCommented_Document_Recipients**
+    * _Type_: String
+    * _Description_: List of valid emails addresses or system variables to recieve this notification, separated by a semicolon
+    * _Default_: %station_admin_mail%
+    * _Notification description_: It sends a notification when a document has been commented
 * #### **OnCommented_Document_RecipientsActive**
+    * _Type_: Number [0|1]
+    * _Description_: It [Activates|Deactivates] the notification
+    * _Default_: 0 (Deactivated)
 * #### **OnDocumentImportError**
+    * _Type_: String
+    * _Description_: List of valid emails addresses or system variables to recieve this notification, separated by a semicolon
+    * _Default_: %station_admin_mail%
+    * _Notification description_: It sends a notification when an error ocurred while exporting
 * #### **OnDocumentImportErrorActive**
+    * _Type_: Number [0|1]
+    * _Description_: It [Activates|Deactivates] the notification
+    * _Default_: 0 (Deactivated)
 * #### **OnDocumentType_Configured_Recipients**
+    * _Type_: String
+    * _Description_: List of valid emails addresses or system variables to recieve this notification, separated by a semicolon
+    * _Default_: %station_admin_mail%
+    * _Notification description_: It sends a notification when a document type has ben configured
 * #### **OnDocumentType_Configured_RecipientsActive**
+    * _Type_: Number [0|1]
+    * _Description_: It [Activates|Deactivates] the notification
+    * _Default_: 0 (Deactivated)
 * #### **OnDocumentType_NewType_Recipients**
+    * _Type_: String
+    * _Description_: List of valid emails addresses or system variables to recieve this notification, separated by a semicolon
+    * _Default_: %station_admin_mail%
+    * _Notification description_: It sends a notification when a new document type has ben created
 * #### **OnDocumentType_NewType_RecipientsActive**
+    * _Type_: Number [0|1]
+    * _Description_: It [Activates|Deactivates] the notification
+    * _Default_: 0 (Deactivated)
 * #### **OnDocumentType_ToReview_Recipients**
+    * _Type_: String
+    * _Description_: List of valid emails addresses or system variables to recieve this notification, separated by a semicolon
+    * _Default_: %station_admin_mail%
+    * _Notification description_: It sends a notification when an existing document type has been set as 'To Review'
 * #### **OnDocumentType_ToReview_RecipientsActive**
+    * _Type_: Number [0|1]
+    * _Description_: It [Activates|Deactivates] the notification
+    * _Default_: 0 (Deactivated)
 * #### **OnJob_Num_batches_to_index**
+    * _Type_: String
+    * _Description_: List of valid emails addresses or system variables to recieve this notification, separated by a semicolon
+    * _Default_: %station_admin_mail%
+    * _Notification description_: It sends a notification when n new number of batches are ready to index
+    * _Info_: The conditional number and its activation is configurable under 'Job / JOB_NAME / Notifications > OnJob_Num_batches_to_index > *conditioned on number' and *active columns
+
+> ### **End of notifications default parameters <i class="mdi mdi-arrow-up" style="color: #4d90fe;"></i>**
+
 * #### **capture_date_search_year_max**
+    * _Type_: Number
+    * _Description_: Maximun date search on application
+    * _Default_: 2040
 * #### **capture_date_search_year_min**
+    * _Type_: Number
+    * _Description_: Minimum date search on application
+    * _Default_: 1990
 * #### **capture_dateformat**
+    * _Type_: String
+    * _Description_: Date format for dates recognition
+    * _Default_: system
 * #### **capture_decimalseparator**
-* #### **capture_numberformat**
-* #### **capture_dateformat**
+    * _Type_: String
+    * _Description_: Decimal separator for decimal separator recognition
+    * _Default_: system
 * #### **datatype_amount_default_decimals**
+    * _Type_: String
+    * _Description_: Amount of decimals after the decimal separator
+    * _Default_: 
 * #### **document_type_disable_offsets_by_default**
+    * _Type_: number [0|1]
+    * _Description_: It [Activates|Deactivates] offsets by default when a document type is generated
+    * _Default_: 0 (Offsets are activated by default)
 * #### **force_manual_index**
+    * _Type_: Boolean (true|false)
+    * _Description_: It forces manual index for master keys
+    * _Default_: false
 * #### **job_admin_email**
+    * _Type_: String
+    * _Description_: Default administrator email for configuration jobs
+    * _Default_: %station_admin_mail%
 * #### **job_default_ocr**
-
-
-
-
-
+    * _Type_: String
+    * _Description_: Default OCR engine to be used by ChronoScan
+    * _Default_: %OCR_engine_type%
 
 
