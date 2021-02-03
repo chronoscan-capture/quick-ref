@@ -383,7 +383,7 @@ the email has to belong to an user registered for the job the notification is ac
     * _Default_: false
 * #### **job_admin_email**
     * _Type_: String
-    * _Description_: Default administrator email for configuration jobs
+    * _Description_: Default administrator email for enterprise configuration jobs
     * _Default_: %station_admin_mail%
 * #### **job_default_ocr**
     * _Type_: String
