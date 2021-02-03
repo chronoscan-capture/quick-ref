@@ -70,7 +70,7 @@
     * _Image_: _*In this example the variable has been set to 2_ <br /><img src="./_images_/wci_lists_max_page_values.png" width="420" height="auto"> 
 * #### **wci_mainurl**
     * _Type_: String
-    * _Description_: Url for enterprise web application
+    * _Description_: Url for enterprise Web application
     * _Default_: http://localhost:10000
 * #### **wci_max_log_days**
     * _Type_: Number
