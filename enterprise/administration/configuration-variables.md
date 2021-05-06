@@ -77,6 +77,15 @@
     * _Description_: If greater than 0, the table containing logs will only keep records that are greater than today minus *value* days
     * _Example_: If you just want to keep log records for the last 7 days, set this value to 7
     * _Default_: -1 (Disabled)
+* #### **wci_max_log_snapshottable**
+    * _Type_: Boolean
+    * _Description_: If true, it will move the activity records to a monthly table instead of deleting, named as "wci_user_activity_YYYY_MM"
+    * _Default_: false (Disabled)
+* #### **wci_max_log_snapshottable_keepmonths**
+    * _Type_: Number
+    * _Description_: If greater than 0, it will delete the activity log snapshot tables that are greather than x months
+    * _Example_: If you just want to keep the activity log snapshot tables for the last year, set this value to 12
+    * _Default_: 0 (Disabled)
 * #### **wci_max_smtp_notifications_days**
     * _Type_: Number
     * _Description_: If greater than 0, the table containing smtp notifications will only keep records that are greater than today minus *value* days
