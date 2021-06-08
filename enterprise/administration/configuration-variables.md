@@ -104,6 +104,10 @@
     * _Type_: String
     * _Description_: <a href="https://www.chronoscan.org/wcidoc/running_chronoscan_web_server_through_a_reverse_proxy__helicon_ape__print.htm" target="_blank">See docs</a>
     * _Default_: &lt;&lt;default&gt;&gt;
+* #### **wci_show_parked_batches_on_dashboard_to**
+    * _Type_: Select<String>: no-one | only admins | only operators | everyone
+    * _Description_: Shows/ Hides Parked bacthes inbox on dashboard depending on provided value. __*As long as there is/are more than one parked batch(es).__
+    * _Default_: &lt;&lt;only admins&gt;&gt;
 * #### **wci_spacedisk_warning_megabytes**
     * _Type_: Number
     * _Description_: Minimum amount in Megabytes for alert/notification of disk space being low
