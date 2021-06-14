@@ -48,9 +48,13 @@
     * _Description_: Url for opening the diagnosis and information web application for the _Processing server_
     * _Default_: http://localhost:9008/
 * #### **wci_indexview_max_session_timeout_seconds**
-    * _Type_: Number
-    * _Description_: If the index view remains without user activity for longer than this time (**in seconds**), current batch will be saved and current session will be closed.
+    * _Type_: Number (Seconds)
+    * _Description_: If any process is executing and lasts more than this value (**in seconds**), current session will be closed.
     * _Default_: 360
+* #### **wci_indexview_session_timeout_seconds**
+    * _Type_: Number (Seconds)
+    * _Description_: If any activity other than background processes, scripts and document processing lasts more than this value  (**in seconds**), current session will be closed.
+    * _Default_: 15 (*Minimum)
 * #### **wci_input_root**
     * _Type_: String
     * _Description_: Root directory for hotfolder configurations
@@ -105,7 +109,7 @@
     * _Description_: <a href="https://www.chronoscan.org/wcidoc/running_chronoscan_web_server_through_a_reverse_proxy__helicon_ape__print.htm" target="_blank">See docs</a>
     * _Default_: &lt;&lt;default&gt;&gt;
 * #### **wci_show_parked_batches_on_dashboard_to**
-    * _Type_: Select<String>: no-one | only admins | only operators | everyone
+    * _Type_: Select&lt;String&gt;: no-one | only admins | only operators | everyone
     * _Description_: Shows/ Hides Parked bacthes inbox on dashboard depending on provided value. __*As long as there is/are more than one parked batch(es).__
     * _Default_: **only admins**
 * #### **wci_spacedisk_warning_megabytes**
