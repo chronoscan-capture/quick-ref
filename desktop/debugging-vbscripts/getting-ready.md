@@ -9,16 +9,11 @@ Download link for free community edition:
 
 [https://visualstudio.microsoft.com/es/vs/older-downloads/](https://visualstudio.microsoft.com/es/vs/older-downloads/)
 
-### 2. If using Visual Studio Community edition, make sure you have installed the component Just-In-Time debugger in the installer
+### 2. Make sure you have installed the component Just-In-Time debugger in the installer
 
-Just-in-Time debbuger can be either installed on Visual Studio by adding the workload for C++ Desktop development or by adding it as an individual component as shown on the following images.
-
-__Workload__:  
+Just-In-Time debugger is adding with the workload for C++ Desktop development.
+  
 <img src="./_images_/debugging/vscomunnitygitcpp.jpg" width="620" height="auto">
-
-
-__Individual component__:  
-<img src="./_images_/debugging/vs2017jit.jpg" width="620" height="auto">
 
 ### 3. Enable Just-In-Time debugging for Scripts and Managed code on Visual Studio
 
