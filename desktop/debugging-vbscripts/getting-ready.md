@@ -7,11 +7,11 @@
 
 Download link for free community edition:  
 
-[https://visualstudio.microsoft.com/es/vs/older-downloads/](https://visualstudio.microsoft.com/es/vs/older-downloads/)
+[https://visualstudio.microsoft.com/es/vs/older-downloads/](https://visualstudio.microsoft.com/en/vs/older-downloads/)
 
 ### 2. Make sure you have installed the component Just-In-Time debugger in the installer
 
-Just-In-Time debugger is adding with the workload for C++ Desktop development.
+Just-In-Time debugger is added with the workload for C++ Desktop development.
   
 <img src="./_images_/debugging/vscomunnitygitcpp.jpg" width="620" height="auto">
 
