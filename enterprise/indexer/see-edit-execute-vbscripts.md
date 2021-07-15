@@ -20,7 +20,7 @@ Users > [Desired admin user] > Edit > Permissions > check "Allow: See/Edit/Execu
 
 ## 2. Seeing, editing and executing VBScripts on indexer
 
-Once the user has the proper permission, fields with event scripts (onenteredit, onendedit, onkillfocus, onvaluechanged) will appear with the VB code icon on their right.
+Once the user has the proper permission, fields with event scripts (onenteredit, onendedit, onkillfocus, onvaluechanged, onhelplistselect) will appear with the VB code icon on their right.
 
 <img src="./_images_/vbscript/vb_icon.jpg" width="420" height="auto">  
 
