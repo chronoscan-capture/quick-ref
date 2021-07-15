@@ -6,7 +6,7 @@
 
 For being able to see, edit and execute VBScripts field event on enterprise indexer, please follow these steps.
 
-## 1. Give specific permission to desired user on the application route:
+## 1. Give specific permission to desired user on the application route
 
 !> User has to be an **admin**
 
