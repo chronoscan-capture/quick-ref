@@ -3,6 +3,8 @@
         * [ADMINISTRATION](./enterprise/administration/configuration-variables) 
             * [System parameters (wci_params)](./enterprise/administration/configuration-variables?id=system-parameters-wci_params) 
             * [Global parameters](./enterprise/administration/configuration-variables?id=global-parameters) 
+        * [INDEXER](enterprise/index)
+            * [See, edit and execute VBScripts on indexer](./enterprise/indexer/see-edit-execute-vbscripts)
     * [DESKTOP](desktop/index) 
         * [Debugging VBScripts](./desktop/debugging-vbscripts/index)
             * [Getting ready](./desktop/debugging-vbscripts/getting-ready.md)
