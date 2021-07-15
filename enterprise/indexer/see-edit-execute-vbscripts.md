@@ -26,7 +26,7 @@ If the icon is clicked, the editing dialog window will appear.
 <img src="./_images_/vbscript/dialog.jpg" width="420" height="auto">  
 
 * The dialog will show, allow edit and execute the scripts that the field has, by clicking on the field.event buttons
-* If the script is modified the save changes button will be enabled
+* If the script is modified (and the text area blurred) the "save changes" button will be enabled
 * The Execute script button will trigger the current selected field event
 
 
