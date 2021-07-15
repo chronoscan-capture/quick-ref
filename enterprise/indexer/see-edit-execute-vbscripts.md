@@ -8,11 +8,14 @@ For being able to see, edit and execute VBScripts field event on enterprise inde
 
 ## 1. Give specific permission to desired user on the application route:
 
+!> User has to be an **admin**
+
 ```
-Users > [Desired user] > Edit > Permissions > check "Allow: See/Edit/Execute VBScripts on Indexer" option.
+Users > [Desired admin user] > Edit > Permissions > check "Allow: See/Edit/Execute VBScripts on Indexer" option.
 ```
 
 <img src="./_images_/vbscript/user_permission.png" width="820" height="auto">  
+
 
 
 ## 2. Seeing, editing and executing VBScripts on indexer
