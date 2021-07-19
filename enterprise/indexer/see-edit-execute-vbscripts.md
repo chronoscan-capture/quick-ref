@@ -28,7 +28,7 @@ If the icon is clicked, the editing dialog window will appear.
 
 <img src="./_images_/vbscript/dialog.jpg" width="420" height="auto">  
 
-* The dialog will show, allowing editing and executing the scripts that the field has, by clicking on the field.event buttons
+* The dialog will show, allowing editing and executing the scripts that the field has by clicking on the field.event buttons
 * The "Execute script" button will trigger the current selected field event
 
 > When this feature is enabled, always a script is executed, a notification alert like the following is shown on the indexer
