@@ -2,7 +2,7 @@
 
 > Since v1.0.2.63
 
-!> Important: VBScripts are an advance feature, make sure to give this permission only to advanced users
+!> Important: VBScripts are an advanced feature, make sure to give this permission only to advanced users
 
 For being able to see, edit and execute VBScripts field events on enterprise indexer, please follow these steps.
 
