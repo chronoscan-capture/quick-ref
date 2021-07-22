@@ -25,7 +25,7 @@ The VBScript editor is composed of two sections
 * Navigate thru Chronoscan scripting model by clicking on the script names
 * It shows us the amount of scripts with content out of the total of available scripts
 * It shows us the objects model of all ChronoScan availabe scripting options 
-* Script names in **bold** mean they have a script or any content
+* Script names in **bold** and **lightblue background color** mean they have a script or any content
 * Scripts with **checkbox<checked|unchecked>** images are scripts that can be activated or deactivated
     * These scripts are all in the _Processes and tasks Scripts_
 
