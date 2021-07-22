@@ -6,3 +6,6 @@
 
 * [Indexer](./enterprise/index)
     * [See, edit and execute VBScripts on indexer](./enterprise/indexer/see-edit-execute-vbscripts)
+
+* [Jobs](enterprise/index)
+            * [VBScript editor for enterprise](./enterprise/jobs/vbscript-editor-enterprise)

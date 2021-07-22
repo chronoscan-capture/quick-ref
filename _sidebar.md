@@ -5,6 +5,8 @@
             * [Global parameters](./enterprise/administration/configuration-variables?id=global-parameters) 
         * [INDEXER](enterprise/index)
             * [See, edit and execute VBScripts on indexer](./enterprise/indexer/see-edit-execute-vbscripts)
+        * [Jobs](enterprise/index)
+            * [VBScript editor for enterprise](./enterprise/jobs/vbscript-editor-enterprise)
     * [DESKTOP](desktop/index) 
         * [Debugging VBScripts](./desktop/debugging-vbscripts/index)
             * [Getting ready](./desktop/debugging-vbscripts/getting-ready.md)
