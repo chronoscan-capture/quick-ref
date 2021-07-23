@@ -4,7 +4,10 @@
 
 ## 1. Enterprise VBScript editor location
 
-!> Accesible for **admin** users
+!> Accesible for **admin** users  
+
+!> For being able to see, edit and execute VBScripts, please follow step 1 to give **user permissions**: [See, edit and execute VBScripts](./enterprise/indexer/see-edit-execute-vbscripts)  
+
 
 ````
     App > Jobs > [job name] > VBScripts
