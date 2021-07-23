@@ -48,7 +48,7 @@ Keyboard shortcuts:
         Jump to line
 ````
 
-### 3 New activity log for edited scripts
+### 3. New activity log for edited scripts
 
 <img src="./_images_/vbseditor/activity.jpg" class="bordered" width="420" height="auto" alt="VBScript editor on enterprise">  
 
