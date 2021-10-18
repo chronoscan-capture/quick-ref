@@ -9,3 +9,7 @@
 
 * [Jobs](enterprise/index)
     * [VBScript editor for enterprise](./enterprise/jobs/vbscript-editor-enterprise)
+
+* [Users](enterprise/index) 
+    * [Password policy management](./enterprise/users/password-policy-management)
+        * [User password management](./enterprise/users/user-password-man)

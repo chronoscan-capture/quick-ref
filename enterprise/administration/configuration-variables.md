@@ -100,6 +100,19 @@
     * _Description_: If greater than 0, the table containing system notifications will only keep records that are greater than today minus *value* days
     * _Example_: If you just want to keep system notification records for the last 7, set this value to 7
     * _Default_: -1 (Disabled)
+* #### **wci_max_system_notifications_days**,	
+* #### **wci_passman_blockpassAfterNattempsActive**,
+* #### **wci_passman_blockpassAfterNattempsNumber**,
+* #### **wci_passman_donotRepeatPassActive**,
+* #### **wci_passman_includeLowercaseActive**,	
+* #### **wci_passman_includeNumbersActive**,	
+* #### **wci_passman_includeSymbolsActive**,	
+* #### **wci_passman_includeUppercaseActive**,	
+* #### **wci_passman_minlengthActive**,	
+* #### **wci_passman_minlengthNumber**,	
+* #### **wci_passman_resetEveryXdaysActive**,	
+* #### **wci_passman_resetEveryXdaysNumber**
+    * _See: [Password policy management](./enterprise/users/password-policy-management)_
 * #### **wci_scan_plugin_directory**
     * _Type_: String
     * _Description_: <a href="https://www.chronoscan.org/wcidoc/running_chronoscan_web_server_through_a_reverse_proxy__helicon_ape__print.htm" target="_blank">See docs</a>
