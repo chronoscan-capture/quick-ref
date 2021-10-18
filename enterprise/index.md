@@ -12,4 +12,4 @@
 
 * [Users](enterprise/index) 
     * [Password policy management](./enterprise/users/password-policy-management)
-        * [User password management](./enterprise/users/user-password-man)
+        * [User password management](./enterprise/users/user-password-man/index)
