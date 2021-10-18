@@ -22,6 +22,9 @@ New password policy management is located under 'Enterprise / users / Passwords 
     - _If checked, new created users passwords will expire after the specified number of days_
     - _Minimum value for days is 15_
     - _This option must be checked in order to block expired password users_
+    - _When active, users will get a notify prompt when password expiring date is less than 10 days_
+        <br />
+        <img src="./_images_/passpolicy/passexpyalert.jpg" class="bordered" width="400" height="auto" alt="Expyring password alert">  
     - _In order to extend passwords, users must change their passwords before they expire_
         - _See: [User password management](./enterprise/users/user-password-man/index)_
 - [ ] __Do not allow repeating previously used passwords:__ _Default false_
