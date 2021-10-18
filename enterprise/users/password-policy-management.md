@@ -36,5 +36,5 @@ New password policy management is located under 'Enterprise / users / Passwords 
     - _If login is succesfull attemps left will be reset to the specified value_
     - _If an account is blocked, admins can now unblock/ block accounts from the users management tab_:  
         <br />
-        <img src="./_images_/passpolicy/blck_unblck.png" class="bordered" width="800" height="auto" alt="Block unblock users">  
+        <img src="./_images_/passpolicy/blck_unblck.png" class="bordered" width="600" height="auto" alt="Block unblock users">  
 
