@@ -49,7 +49,7 @@
     * _Default_: http://localhost:9008/
 * #### **wci_indexview_imgmemoryres_quality**
     * _Since_: v1.0.2.66
-    * _Type_: Number (Seconds)
+    * _Type_: Number (Dropdown combo)
     * _Description_: It sets the memory resource quality for the indexer loaded images
     * _Notes_: The higher the quality the more resources and loading time when transfering the images 
     * _Default_: Medium (50)
