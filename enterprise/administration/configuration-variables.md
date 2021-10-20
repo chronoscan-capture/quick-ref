@@ -47,6 +47,12 @@
     * _Type_: String
     * _Description_: Url for opening the diagnosis and information web application for the _Processing server_
     * _Default_: http://localhost:9008/
+* #### **wci_indexview_imgmemoryres_quality**
+    * _Since_: v1.0.2.66
+    * _Type_: Number (Seconds)
+    * _Description_: It sets the memory resource quality for the indexer loaded images
+    * _Notes_: The higher the quality the more resources and loading time when transfering the images 
+    * _Default_: Medium (50)
 * #### **wci_indexview_max_session_timeout_seconds**
     * _Type_: Number (Seconds)
     * _Description_: If any process is executing and lasts more than this value (**in seconds**), current session will be closed.
