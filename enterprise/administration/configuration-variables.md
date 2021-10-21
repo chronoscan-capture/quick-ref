@@ -105,8 +105,7 @@
     * _Type_: Number
     * _Description_: If greater than 0, the table containing system notifications will only keep records that are greater than today minus *value* days
     * _Example_: If you just want to keep system notification records for the last 7, set this value to 7
-    * _Default_: -1 (Disabled)
-* #### **wci_max_system_notifications_days**,	
+    * _Default_: -1 (Disabled)	
 * #### **wci_passman_blockpassAfterNattempsActive**,
 * #### **wci_passman_blockpassAfterNattempsNumber**,
 * #### **wci_passman_donotRepeatPassActive**,
@@ -127,6 +126,10 @@
     * _Type_: String
     * _Description_: <a href="https://www.chronoscan.org/wcidoc/running_chronoscan_web_server_through_a_reverse_proxy__helicon_ape__print.htm" target="_blank">See docs</a>
     * _Default_: &lt;&lt;default&gt;&gt;
+* #### **wci_show_log_err_alert**
+    * _Type_: String [on|off];
+    * _Description_: If on, it shows LOG_ERR file alert on alerts menu 
+    * _Default_: off
 * #### **wci_show_parked_batches_on_dashboard_to**
     * _Type_: Select&lt;String&gt;: no-one | only admins | only operators | everyone
     * _Description_: Shows/ Hides Parked bacthes inbox on dashboard depending on provided value. __*As long as there is/are more than one parked batch(es).__
