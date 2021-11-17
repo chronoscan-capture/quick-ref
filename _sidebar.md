@@ -1,4 +1,6 @@
 * [CHRONOSCAN](./) 
+    * [DEMO LICENSES REQUEST](./demo-licenses-request/index)
+        * [Error codes](./demo-licenses-request/error-codes.md)
     * [ENTERPRISE](./enterprise/index) 
         * [ADMINISTRATION](./enterprise/administration/configuration-variables) 
             * [System parameters (wci_params)](./enterprise/administration/configuration-variables?id=system-parameters-wci_params) 

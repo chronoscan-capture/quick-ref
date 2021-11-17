@@ -1,5 +1,5 @@
 # Quick Reference Guide
 
-<!-- * [Desktop](/desktop/index) -->
+* [Demo licenses request](/demo-licenses-request/index)
 * [Enterprise](/enterprise/index) 
 * [Desktop](/desktop/index)
