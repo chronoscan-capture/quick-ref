@@ -139,6 +139,16 @@
     * _Description_: Minimum amount in Megabytes for alert/notification of disk space being low
     * _Default_: 1000
     * _Image_: <br /><img src="./_images_/wci_spacedisk_warning_megabytes.png" width="420" height="auto"> 
+* #### **wci_system_alert_chrono_output_server_minRunning**
+    * _Since_: v1.0.2.66
+    * _Type_: Number
+    * _Description_: If the number of services (chrono_output_server) running go under this number, send and register the alert for OutputServer = "DOWN"
+    * _Default_: 1
+* #### **wci_system_alert_chrono_proc_server_minRunning**
+    * _Since_: v1.0.2.66
+    * _Type_: Number
+    * _Description_: If the number of services (chrono_proc_server) running go under this number, send and register the alert for ProcServer = "DOWN"
+    * _Default_: 1
 * #### **wci_system_alert_IMAP_cnxfail**
     * _Type_: Boolean
     * _Description_: It [Activates|Deactivates] a system alert to notify when an IMAP connection fails.
