@@ -44,3 +44,4 @@ Once we are on the desired report, we will see the <b>new 'Schedule report' butt
 
 !> Remeber to hit the 'Save' button when settings are changed and want to be applied
 
+> All scheduled tasks can be managed and monitored on the '[Scheduled reports](./enterprise/reports/scheduled-reports/3-managing-and-monitoring-scheduled-reports-tasks)' section (_See next page_)
