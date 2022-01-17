@@ -40,7 +40,7 @@ On the table we have the following information for each task and a column for di
     <li><img src="./_images_/wci_icons/24x24/folder.png" width="18" height="auto" /> <b>Open destination folder</b></li>
     <li>
         <img src="./_images_/wci_icons/24x24/gearwheel.png" width="18" height="auto">  
-        <b>Open <a href="/#/./enterprise/reports/scheduled-reports/2-how-to-schedule-a-report?id=form-settings-explanation" target="_blank"> task editor window </a></b>
+        <b>Open <a href="#/./enterprise/reports/scheduled-reports/2-how-to-schedule-a-report?id=form-settings-explanation" target="_blank"> task editor window </a></b>
     </li>
     <li>
         <img src="./_images_/wci_icons/24x24/spreadsheed_data.png" width="18" height="auto" /> <b>Open executions report for the task</b>
