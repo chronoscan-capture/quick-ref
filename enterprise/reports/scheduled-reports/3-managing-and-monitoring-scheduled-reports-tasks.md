@@ -12,7 +12,8 @@ when we enter this option, we will be able to manage and monitor the existing sc
 <br/>
 <span class="caption">Managing and monitoring scheduled tasks</span>
 
-On the table we have the following information for each task and a column for different actions
+On the table we have the following information for each task and a column for different actions.  
+If this report is empty, there are no scheduled tasks created yet. To schedule reports check the documentation: [2. How to schedule a report](./enterprise/reports/scheduled-reports/2-how-to-schedule-a-report)
 
 ### Information columns
 
@@ -43,8 +44,8 @@ On the table we have the following information for each task and a column for di
         <b>Open <a href="#/./enterprise/reports/scheduled-reports/2-how-to-schedule-a-report?id=form-settings-explanation" target="_blank"> task editor window </a></b>
     </li>
     <li>
-        <img src="./_images_/wci_icons/24x24/spreadsheed_data.png" width="18" height="auto" /> <b>Open executions report for the task</b>
-        <ul>
+        <img src="./_images_/wci_icons/24x24/spreadsheed_data.png" width="18" height="auto" /> <b>Open executions report for the task</b>  
+        <ul style="margin-top: 6px;">
             <li style="list-style-type: none;">
                 <img src="./_images_/scheduled_reports/executions_report.jpg" width="520" height="auto" />
                 <br/>
