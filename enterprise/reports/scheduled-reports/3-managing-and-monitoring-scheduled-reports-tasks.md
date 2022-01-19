@@ -66,7 +66,7 @@ If this report is empty, there are no scheduled tasks created yet. To schedule r
                         <b>(recipient e-mail address) (operation status):</b>
                         <ul>
                             <li><b>(success)</b>: E-mail sent</li>
-                            <li><b>(error)</b>: Emai couldn't be sent, likely the SMPT configuration is not working correctly</li>
+                            <li><b>(error)</b>: Emai couldn't be sent, likely the SMTP configuration is not working correctly</li>
                             <li><b>(denied)</b>: E-mail not sent, entered E-mail is not a valid chronoscan user</li>
                         </ul>
                     </li>
