@@ -66,7 +66,7 @@ If this report is empty, there are no scheduled tasks created yet. To schedule r
                         <b>(recipient e-mail address) (operation status):</b>
                         <ul>
                             <li><b>(success)</b>: E-mail sent</li>
-                            <li><b>(error)</b>: Emai couldn't be sent</li>
+                            <li><b>(error)</b>: Emai couldn't be sent, likely the SMPT configuration is not working correctly</li>
                             <li><b>(denied)</b>: E-mail not sent, entered E-mail is not a valid chronoscan user</li>
                         </ul>
                     </li>
@@ -83,7 +83,7 @@ If this report is empty, there are no scheduled tasks created yet. To schedule r
 
 * This means that any scheduled task will only work if the WebServer process is running:
     * If the server is down tasks won't be enqueued, therefore those reports wont be generated
-* When a scheduled task changes to '**PENDING**' state the current process Id will be assigned to it:
+* When a scheduled task changes to '**PENDING**' state the current process will be assigned to it:
     * If that process ends but antoher process starts and the task is still pending, the new process will take over that task and the new process will be assigned to it
 * When a scheduled task is '**RUNNING**' and the process server goes down:
     * In this case the task will result on an error since the process that was executing it ended on the meantime
