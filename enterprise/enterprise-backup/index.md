@@ -37,6 +37,8 @@ If everything is correct a zip file named '**entbak_{yyyymmddhhmmss}.zip**' will
 
 <img src="./_images_/ent-backup/bak_dir.jpg" width="420" height="auto"  class="border bordered">  
 
+> If the back Up from the application takes too long or the database timesout, we recommend making a backup manually (_Next section_)
+
 
 ### 2. Generating a backup manually
 
