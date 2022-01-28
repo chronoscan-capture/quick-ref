@@ -12,7 +12,7 @@
 * Make sure the users designated for your services **have permissions on it**
 * Default: <i>_%program_data%/EntBackups/</i>
 
-### Generating a backup
+### 1. Generating a backup from the application
 
 To generate a backup for the current chronoscan enterprise configuration access your user drop down menu and select the _backup_ option
 
@@ -24,7 +24,7 @@ To generate a backup for the current chronoscan enterprise configuration access 
 
 You can choose if you only want to backup the file system chronoscan configuration. (This is all the directory structure of your ProgramData) and the SQL database.
 
-> Omiting the WorkDir directory is highly recommended since that directory is usually too big
+> Omiting the WorkDir directory is highly recommended since that directory is usually too big. _WorkDir contains the images, pdfs, tiffs, ocr files, etc. of your batches_.
 
 After selecting desired backup click on Accept and your backup will start generating.
 
@@ -36,6 +36,33 @@ After selecting desired backup click on Accept and your backup will start genera
 If everything is correct a zip file named '**entbak_{yyyymmddhhmmss}.zip**' will be generated in the specified path.
 
 <img src="./_images_/ent-backup/bak_dir.jpg" width="420" height="auto"  class="border bordered">  
+
+
+### 2. Generating a backup manually
+
+To generate a backup manually follow this steps:
+
+* Create a container folder for your back Up
+
+**For the file system:**
+
+* Go to the ProgramData directory for your ChronoScan configuration
+* Copy the entire folder in your container folder
+    * Omitting WorkDir is recommended
+
+**For the Database:**
+
+* Go to the machine where Sql server is installed
+* Open Sql Server Manager Studio
+* Right click on the desired database > select tasks > select back Up...
+
+<img src="./_images_/ent-backup/sql_man_bak.jpg" width="420" height="auto">  
+
+* Copy the .bak generated file in your container folder
+* Zip your container folder. (Recommended)
+
+
+
 
 
 
