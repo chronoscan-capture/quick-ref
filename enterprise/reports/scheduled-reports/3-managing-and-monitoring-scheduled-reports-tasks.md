@@ -24,9 +24,9 @@ If this report is empty, there are no scheduled tasks created yet. To schedule r
 * Repeating interval
 * **Last execution date**
 <ul>
-    <li><img src="./_images_/wci_icons/24x24/check.png" width="18" height="auto" /> Succesful execution</li>
+    <li><img src="./_images_/wci_icons/24x24/check.png" width="18" height="auto" /> Successful execution</li>
     <li><img src="./_images_/wci_icons/24x24/stopwatch2.png" width="18" height="auto"/> Execution in process</li>
-    <li><img src="./_images_/wci_icons/24x24/error.png" width="18" height="auto" /> Unsuccesful execution</li>
+    <li><img src="./_images_/wci_icons/24x24/error.png" width="18" height="auto" /> Unsuccessful execution</li>
 </ul>
 * **Next execution date**
 * Active
