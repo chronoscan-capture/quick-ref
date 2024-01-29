@@ -152,7 +152,7 @@
 * #### **wci_system_alert_AUTH_SMTP_CRED_expiration**
     * _since_: v.1.0.3.14
     * _Type_: Boolean
-    * _Description_: This alert checks daily if the ChronoScan SMPT connection made with OAuth and if is expired or near expiry (30 days)
+    * _Description_: This alert checks daily if the ChronoScan SMPT connection is made with OAuth and if is expired or near expiry (30 days)
     * _Default_: true
 * #### **wci_system_alert_AUTH_SMTP_CRED_expiration_Recipients**
     * _since_: v.1.0.3.14
