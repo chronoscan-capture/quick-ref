@@ -139,11 +139,26 @@
     * _Description_: Minimum amount in Megabytes for alert/notification of disk space being low
     * _Default_: 1000
     * _Image_: <br /><img src="./_images_/wci_spacedisk_warning_megabytes.png" width="420" height="auto"> 
-* #### **wci_system_alert_chrono_output_server_minRunning**
-    * _Since_: v1.0.2.66
-    * _Type_: Number
-    * _Description_: If the number of services (chrono_output_server) running go under this number, send and register the alert for OutputServer = "DOWN"
-    * _Default_: 1
+* #### **wci_system_alert_AUTH_IMAP_CRED_expiration**
+    * _since_: v.1.0.3.14
+    * _Type_: Boolean
+    * _Description_: This alert checks daily if there are IMAP conections configured with OAuth and if they are expired or near expiry (30 days)
+    * _Default_: true
+* #### **wci_system_alert_AUTH_IMAP_CRED_expiration_Recipients**
+    * _Since_: v.1.0.3.14
+    * _Type_: String
+    * _Description_: ecipients for the 'wci_system_alert_AUTH_IMAP_CRED_expiration' alert. Use ; for multiple emails addresses
+    * _Default_: %station_admin_mail%
+* #### **wci_system_alert_AUTH_SMTP_CRED_expiration**
+    * _since_: v.1.0.3.14
+    * _Type_: Boolean
+    * _Description_: This alert checks daily if the ChronoScan SMPT connection made with OAuth and if is expired or near expiry (30 days)
+    * _Default_: true
+* #### **wci_system_alert_AUTH_SMTP_CRED_expiration_Recipients**
+    * _since_: v.1.0.3.14
+    * _Type_: String
+    * _Description_: Recipients for the 'wci_system_alert_AUTH_SMTP_CRED_expiration' alert. Use ; for multiple emails addresses
+    * _Default_: %station_admin_mail%
 * #### **wci_system_alert_chrono_proc_server_minRunning**
     * _Since_: v1.0.2.66
     * _Type_: Number
