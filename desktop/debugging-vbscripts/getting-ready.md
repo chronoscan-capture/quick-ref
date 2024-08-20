@@ -13,7 +13,7 @@ Download link for free community edition:
 
 Just-In-Time debugger is added with the workload for C++ Desktop development.
   
-<img src="/_images_/debugging/vscomunnitygitcpp.jpg" width="620" height="auto">
+<img src="./_images_/debugging/vscomunnitygitcpp.jpg" width="620" height="auto">
 
 ### 3. Enable Just-In-Time debugging for Scripts and Managed code on Visual Studio
 
