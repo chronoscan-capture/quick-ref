@@ -3,8 +3,6 @@
 
 > All report files are excel format
 
-#### The following applies for both reports _Report 1 - actvity_ and _Report 2 - workflow_ 
-
 Only one xls file is generated with the following name format:
 
 * ${report_given_name}_YYYYMMDDhhmmss-${execution_type:(auto|manual)}.xls

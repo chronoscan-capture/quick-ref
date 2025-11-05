@@ -3,9 +3,8 @@
 
 To schedule a report go to the Reports menu and **select the desired report**.  
 
-Currently we can schedule two reports:
+Currently we can schedule one report:
 * Reports 1 - Activity
-* Reports 2 - Workflow
 
 Once we are on the desired report, we will see the <b>new 'Schedule report' button</b>:
 
